@@ -41,9 +41,9 @@ Internal CSS, External CSS, and inline styles
 HTML tables
 HTML forms
 
-Your file must include:
+-Your file must include:
 
--Styles in a single style tag. You must also reference an external stylesheet (it does not need to be a real stylesheet, just reference one with a relative path). 
+    -Styles in a single style tag. You must also reference an external stylesheet (it does not need to be a real stylesheet, just reference one with a relative path). 
 -An external reference to a JavaScript file, either to a CDN or local file with a relative path.
 -One table with a single row and two table cells. Make the table 600px wide, centered, and 200px from the top of the screen. Achieve this however you like.
 *In the first cell, include a block of lorem ipsum text. Use inline styling to modify some or part of it.
