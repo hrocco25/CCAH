@@ -11,7 +11,7 @@ I would start by making a new branch to test any new code.  On that test branch 
 ### Question 2:
 Imagine you have a web page with a form for users to fill out and submit. Can you think of a way that the page can save the user's progress if they leave (close web page or navigate away) and come back later using front end code only?
 
-### Answer 1:
+### Answer 2:
 You could use local storage to keep the information there for the user.  It will store a limited amount of data, about 5MB.   Sessions storage is another option but it only works if the user keeps that page open.  The problem with session storage is that once you close the page the information will be gone.  Cookies would also be an option but that limits how much you can store too.  
  
 ### Question 3:
@@ -44,18 +44,18 @@ HTML forms
 - Your file must include:
 
     - Styles in a single style tag. You must also reference an external stylesheet (it does not need to be a real stylesheet, just reference one with a relative path). 
--An external reference to a JavaScript file, either to a CDN or local file with a relative path.
--One table with a single row and two table cells. Make the table 600px wide, centered, and 200px from the top of the screen. Achieve this however you like.
-*In the first cell, include a block of lorem ipsum text. Use inline styling to modify some or part of it.
-*Also in the first cell, include a placeholder image.
-*In the second cell, create a form with one text input that makes a "GET" request to your file.
-*Additional styling and design is not necessary, but feel free to add in additional markup that makes the document more accessible, and shows consideration for HTML best practices, including best practices for HTML used in email. What is normally included in a form? What is included in a table in an HTML email?
+    - An external reference to a JavaScript file, either to a CDN or local file with a relative path.
+    - One table with a single row and two table cells. Make the table 600px wide, centered, and 200px from the top of the screen. Achieve this however you like.
+    - In the first cell, include a block of lorem ipsum text. Use inline styling to modify some or part of it.
+    - Also in the first cell, include a placeholder image.
+    - In the second cell, create a form with one text input that makes a "GET" request to your file.
+    - Additional styling and design is not necessary, but feel free to add in additional markup that makes the document more accessible, and shows consideration for HTML best practices, including best practices for HTML used in email. What is normally included in a form? What is included in a table in an HTML email?
 
 ### Extra credit with Answers:
 
- *Make the table cells stack on smaller screen widths. If you have trouble with this, alternatively you can make two divs below your table that stack on smaller screen widths.
-    *I used a media query to stack the two cells on top of each other.  
- *Include a script tag to do some sort of DOM manipulation.
-    *I changed the background when you start to enter text into the form. 
- *Add another field to your form with radio buttons.
-    *I added 4 radio buttons for the seasons.
+- Make the table cells stack on smaller screen widths. If you have trouble with this, alternatively you can make two divs below your table that stack on smaller screen widths.
+    - I used a media query to stack the two cells on top of each other.  
+- Include a script tag to do some sort of DOM manipulation.
+    - I changed the background when you start to enter text into the form. 
+- Add another field to your form with radio buttons.
+    - I added 4 radio buttons for the seasons.
