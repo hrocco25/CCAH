@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>CCAH</title>
+    <style>
+        .table {
+        width: 600px;
+        margin: auto;
+        text-align: center;
+        margin-top: 200px;
+        }
+
+        img {
+            width: 70%;
+        }
+        
+        td{
+            border: solid 1px black;
+            padding: 10px;
+            width: 50%;
+        }
+        @media only screen and (max-width: 768px){
+            td{
+                display: block;
+                margin:  0 auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <table class="table">
+        <tr>
+            <td style="color: darkblue; ">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <img src="https://images.unsplash.com/photo-1422558068704-1f8f0609e27c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1355&q=80" alt="flowers" />
+            </td>
+            <td class="form">
+                <h4>Please Fill Out The Form</h4>
+                <form method="get">
+                    <label for="first"><p>First name:</p></label>
+                    <input type="text" id="first" name="first">
+                    <label for="last"><p>Last name:</p></label>
+                    <input type="text" id="last" name="last"><br><br>
+                    <label for="season">What's your favorite season?</label><br><br>
+                    <input type="radio" id="fall" name="season">
+                    <label for="fall">Fall</label>
+                    <input type="radio" id="summer" name="season">
+                    <label for="summer">Summer</label>
+                    <input type="radio" id="spring" name="season">
+                    <label for="spring">Spring</label>
+                    <input type="radio" id="winter" name="season">
+                    <label for="winter">Winter</label><br><br>
+                    <input type="submit" id="submit" value="Submit">
+                  </form>
+            </td>
+        </tr>
+    </table>
+    <script src="script.js"></script>
+    <script>
+        const textInput = document.querySelector(".form");
+  
+        textInput.addEventListener(
+          "input",
+          function(event) {
+            textInput.style.backgroundColor = "lightgreen";
+            textInput.style.border = "darkblue solid 4px";
+          },
+          false
+        );
+      </script>
+</body>
+</html>
